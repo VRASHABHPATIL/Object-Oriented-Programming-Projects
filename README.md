@@ -10,7 +10,7 @@ Object-oriented programming (OOP) is a programming paradigm that revolves around
 
 **Encapsulation** : Encapsulation is the bundling of `data` and `methods`  that operate on the data into a single unit (i.e., class). This helps in hiding the internal state of an object and only exposing the necessary functionalities, which improves modularity and reduces complexity.
 
-**Inheritance** : Inheritance is a mechanism where a class (subclass or derived class) can inherit attributes and methods from another class (superclass or base class). This promotes code reusability and allows for creating specialized classes that inherit common behaviors and characteristics from a more general class.
+**Inheritance** : Inheritance is a mechanism where a class (`subclass or derived class`) can inherit attributes and methods from another class (`superclass or base class`). This promotes code reusability and allows for creating specialized classes that inherit common behaviors and characteristics from a more general class.
 
 **Polymorphism** : Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables methods to be written to handle objects of any subclass of a particular superclass, which promotes flexibility and extensibility in code design.
 
