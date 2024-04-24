@@ -3,7 +3,7 @@ Object-oriented programming (OOP) is a programming paradigm that revolves around
 
 ## Here are some key concepts in object-oriented programming:
 
-**Class**: A class is a blueprint or template for creating objects. It defines the attributes (data) and methods (behavior) that all objects of that class will have.
+**Class**  :   A class is a blueprint or template for creating objects. It defines the attributes (data) and methods (behavior) that all objects of that class will have.
 
 
 **Object**: An object is an instance of a class. It's a concrete realization of the class blueprint, with its own unique data and behavior.
