@@ -16,7 +16,7 @@ Object-oriented programming (OOP) is a programming paradigm that revolves around
 
 **Abstraction** : Abstraction involves hiding the complex implementation details and showing only the essential features of an object. It allows programmers to focus on what an object does rather than how it does it, which enhances clarity and reduces complexity.
 
-Object-oriented programming can be implementdusing languages, such as `Java`, `Python`, `C++`, and `C`, provide syntax and features to implement these concepts effectively. OOP promotes modular, scalable, and maintainable code by organizing it around objects and their interactions, making it easier to understand, reuse, and extend.
+Object-oriented programming can be implementdusing languages, such as `Java`, `Python`, `C++`, and `C`, provide syntax and features to implement these concepts effectively. OOP promotes `modular`, `scalable`, and `maintainable` code by organizing it around objects and their interactions, making it easier to understand, reuse, and extend.
 
 
 
