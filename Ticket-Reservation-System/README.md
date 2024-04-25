@@ -22,4 +22,26 @@ The objective of the ticket booking system is to provide a program that allows u
 #### Ticket
 ![image](https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/6f53fcad-cff6-455b-a3ec-c6970cbb6938)
 
+This is the base class that represents a generic ticket. It contains common attributes such as event name, venue, date, and the number of tickets. It also has a default constructor and a parameterized constructor to initialize the attributes. The class has a virtual function display(), which can be overridden in derived classes to display specific ticket details.
+
+### MovieTicket(Derived From Ticket)
+![image](https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/4b1a5ee3-5730-43da-9a30-2e68c19a0fc1)
+
+This class is derived from the Ticket class, representing a movie ticket. It adds two additional attributes: movieName (the name of the movie) and showTime (the time at which the movie will be screened). It overrides the display() function to include movie-specific details in the output
+
+### ConcertTicket(Derived From Ticket)
+![image](https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/f86e4f1d-47f5-4da5-9245-1283877be3e4)
+
+This class is also derived from the Ticket class, representing a concert ticket. It adds an additional attribute: artistName (the name of the performing artist or band). It overrides the display() function to include concert-specific details in the output.
+
+### SportsTicket(Derived From Ticket)
+![image](https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/14f907f5-5828-4c47-9d8b-f99a6ea0b9a3)
+
+This class is derived from the Ticket class, representing a sports event ticket. It adds an additional attribute: sportsType (the type of sport for the event, e.g., Football, Basketball, etc.). It overrides the display() function to include sports event-specific details in the output.
+
+
+
+
+
+
 
