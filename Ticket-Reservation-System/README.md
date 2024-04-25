@@ -13,3 +13,8 @@ The objective of the ticket booking system is to provide a program that allows u
 4.Display All Tickets: Shows all the tickets that have been booked so far, displaying the details of each ticket, including event information and the number of tickets booked.
 
 5.User-Friendly Interface: The system offers a user-friendly menu-driven interface that guides users through various operations. It ensures a smooth user experience and facilitates easy interaction with the system.
+
+## DESIGN
+### CLASS DIAGRAM
+![image](https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/513c10a3-1734-4d5a-b766-95ceeb2b571d)
+
