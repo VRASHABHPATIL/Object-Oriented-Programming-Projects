@@ -46,6 +46,10 @@ When the program starts, it declares an array of pointers to the base class Tick
 ### Function Call - display()
 After booking tickets or when the user chooses to display all booked tickets, the program calls the `display()` function on each ticket object stored in the tickets array.Due to the use of virtual functions, the appropriate version of the `display()` function is called based on the actual object type. For example, if a `MovieTicket` object is stored in `tickets[i]`, calling `tickets[i]->display()` will invoke the `overridden display()` function from the `MovieTicket class`, displaying movie-specific details along with the common ticket details.Similarly, for `ConcertTicket` or `SportsTicket` objects, the corresponding `overridden display()` functions will be called.
 
+### Polymorphism and Virtual Functions
+
+When the `display()` function is called on a Ticket object using a pointer, the appropriate version of the function (from the derived class) is executed based on the object type it points to. This is the essence of `polymorphism`. For example, when the `display()` function is called here: `tickets[i]->display();`, it will call the appropriate `display()` function from either `MovieTicket`, `ConcertTicket`, or `SportsTicket`, depending on the object type pointed to by `tickets[i]`.
+
 
 
 
