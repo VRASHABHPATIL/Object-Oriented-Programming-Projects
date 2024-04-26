@@ -40,7 +40,8 @@ This class is also derived from the Ticket class, representing a concert ticket.
 This class is derived from the Ticket class, representing a sports event ticket. It adds an additional attribute: sportsType (the type of sport for the event, e.g., Football, Basketball, etc.). It overrides the display() function to include sports event-specific details in the output.
 
 ## Flow of object creation and function calL
-### Object Creation:
+### Object Creation
+When the program starts, it declares an array of pointers to the base class Ticket named tickets, which can store up to 100 ticket objects.Inside the while loop in the `main()` function, the user is presented with a menu to choose an action, such as booking tickets or displaying all booked tickets.Depending on the user's choice, the program dynamically creates instances of the derived classes (`MovieTicket`, `ConcertTicket`, `SportsTicket`) using the new keyword and assigns them to the pointers in the tickets array
 
 
 
