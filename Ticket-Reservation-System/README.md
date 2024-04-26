@@ -43,6 +43,10 @@ This class is derived from the Ticket class, representing a sports event ticket.
 ### Object Creation
 When the program starts, it declares an array of pointers to the base class Ticket named tickets, which can store up to 100 ticket objects.Inside the while loop in the `main()` function, the user is presented with a menu to choose an action, such as booking tickets or displaying all booked tickets.Depending on the user's choice, the program dynamically creates instances of the derived classes (`MovieTicket`, `ConcertTicket`, `SportsTicket`) using the new keyword and assigns them to the pointers in the tickets array
 
+### Function Call - display()
+After booking tickets or when the user chooses to display all booked tickets, the program calls the `display()` function on each ticket object stored in the tickets array.Due to the use of virtual functions, the appropriate version of the `display()` function is called based on the actual object type. For example, if a `MovieTicket` object is stored in `tickets[i]`, calling `tickets[i]->display()` will invoke the `overridden display()` function from the `MovieTicket class`, displaying movie-specific details along with the common ticket details.Similarly, for `ConcertTicket` or `SportsTicket` objects, the corresponding `overridden display()` functions will be called.
+
+
 
 
 
