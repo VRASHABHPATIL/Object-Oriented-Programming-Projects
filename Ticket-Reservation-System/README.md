@@ -17,7 +17,7 @@ The objective of the ticket booking system is to provide a program that allows u
 ## DESIGN
 ### CLASS DIAGRAM
 ![image](https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/513c10a3-1734-4d5a-b766-95ceeb2b571d)
-
+<img src="https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/513c10a3-1734-4d5a-b766-95ceeb2b571d" width=800 height=500>
 ### DESCRIPTION OF EACH CLASS
 #### Ticket
 ![image](https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/6f53fcad-cff6-455b-a3ec-c6970cbb6938)
