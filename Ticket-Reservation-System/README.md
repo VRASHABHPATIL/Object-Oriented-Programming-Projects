@@ -18,10 +18,11 @@ The objective of the ticket booking system is to provide a program that allows u
 ### CLASS DIAGRAM
 
 <img src="https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/513c10a3-1734-4d5a-b766-95ceeb2b571d" width=800 height=500>
+
 ### DESCRIPTION OF EACH CLASS
 #### Ticket
 
-<img src="https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/6f53fcad-cff6-455b-a3ec-c6970cbb6938" width=800 height=500>
+<img src="https://github.com/VRASHABHPATIL/Object-Oriented-Programming-Projects/assets/105427388/6f53fcad-cff6-455b-a3ec-c6970cbb6938" width=500 height=400>
 
 This is the base class that represents a generic ticket. It contains common attributes such as event name, venue, date, and the number of tickets. It also has a default constructor and a parameterized constructor to initialize the attributes. The class has a virtual function display(), which can be overridden in derived classes to display specific ticket details.
 
